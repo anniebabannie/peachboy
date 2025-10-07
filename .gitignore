@@ -1,0 +1,48 @@
+############################
+# Base project ignores
+############################
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+/node_modules/
+
+# React Router build artifacts
+/.react-router/
+/build/
+dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Caches
+.eslintcache
+.stylelintcache
+.parcel-cache
+.vite
+
+# Coverage
+coverage
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Misc
+*.swp
+*.swo
+*.tgz
+*.zip
