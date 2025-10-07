@@ -1,6 +1,6 @@
 import type { RouteObject } from "react-router";
-import Home from "./routes/home";
-import ComicPage from "./routes/comic-page";
+import Home from "./pages/home";
+import ComicPage from "./pages/comic-page";
 
 const routes: RouteObject[] = [
   {

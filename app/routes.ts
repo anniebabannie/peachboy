@@ -1,14 +1,6 @@
-import { type RouteConfig } from "@react-router/dev/routes";
+import { type RouteConfig, index, route } from "@react-router/dev/routes";
 
 export default [
-	{
-		id: "home",
-		path: "/",
-		file: "routes/home.tsx",
-	},
-	{
-		id: "comic-page",
-		path: "/chapter-:chapter/:page",
-		file: "routes/comic-page.tsx",
-	},
+  index("./pages/home.tsx"),
+  route(":chapter/:page", "./pages/comic-page.tsx"),
 ] satisfies RouteConfig;
